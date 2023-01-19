@@ -196,8 +196,9 @@ function dataGauge(id){
     
     d3.json(url).then(function(data) {
         idType = Number(id)
-        for(let i = 0; i < data.metadata.length; i++){
-            let washData = data.metadata[i].wfreq
+        for(let i = 0; i < data.metadata.length; i++)
+        {
+            let washData = data.metadata.filter(idType === demoData.id).wfreq
         let gdata = [
             {
                 domain: { x: [0, 1], y: [0, 1] },
