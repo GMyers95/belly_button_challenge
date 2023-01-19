@@ -6,6 +6,8 @@
 
 This repo introduces the concept of a dashboard where the visualizations change with each drop-down selection.
 
+<img src="Screenshot (102).png" width="60%">
+
 <br>
 
 ## Technologies    
